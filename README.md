@@ -129,12 +129,6 @@ Open **Terminal** and run:
 security add-internet-password -a "<TOKEN_NAME>" -s "astra-navigation.repo.sonatype.app" -r htps -w "<TOKEN_PASSWORD>" -U
 ```
 
-Example:
-
-```bash
-security add-internet-password -a devuser -s astra-navigation.repo.sonatype.app -r htps -w my-token-password -U
-```
-
 When Xcode first downloads the framework you may be prompted to allow Keychain access.
 
 Select **Always Allow**.
@@ -149,7 +143,8 @@ Import AstraNavKit in your project:
 import AstraNavKit
 ```
 
-Refer to the AstraNav developer documentation for SDK integration and API usage.
+After authentication the AstraNavKit documentation is also available from the secure Sonatype repository to match the version you are using, e.g., :
+https://astra-navigation.repo.sonatype.app/repository/astranav-raw/AstraNavKit/1.0.4/AstraNavKit_iOS_SDK_Guide.pdf
 
 ---
 
