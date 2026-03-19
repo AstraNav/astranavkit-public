@@ -54,27 +54,6 @@ flowchart TD
 
 ---
 
-# Installation
-
-AstraNavKit is distributed using **Swift Package Manager (SPM)**.
-
-### Step 1 — Add the package in Xcode
-
-Open your project and select:
-
-File → Add Package Dependencies…
-
-Enter the repository URL:
-
-https://github.com/AstraNav/astranavkit-public
-
-Select the version rule:
-
-Up to Next Major Version
-
-Then add the **AstraNavKit** library to your app target.
-
----
 
 # Repository Access Setup
 
@@ -134,6 +113,27 @@ When Xcode first downloads the framework you may be prompted to allow Keychain a
 Select **Always Allow**.
 
 ---
+# Installation
+
+AstraNavKit is distributed using **Swift Package Manager (SPM)**.
+
+### Step 1 — Add the package in Xcode
+
+Open your project and select:
+
+File → Add Package Dependencies…
+
+Enter the repository URL:
+
+https://github.com/AstraNav/astranavkit-public
+
+Select the version rule:
+
+Up to Next Major Version
+
+Then add the **AstraNavKit** library to your app target.
+
+---
 
 # Usage
 
@@ -144,6 +144,7 @@ import AstraNavKit
 ```
 
 After authentication the AstraNavKit documentation is also available from the secure Sonatype repository to match the version you are using, e.g., :
+
 https://astra-navigation.repo.sonatype.app/repository/astranav-raw/AstraNavKit/1.0.4/AstraNavKit_iOS_SDK_Guide.pdf
 
 ---
