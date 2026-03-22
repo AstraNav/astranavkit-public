@@ -143,10 +143,6 @@ Import AstraNavKit in your project:
 import AstraNavKit
 ```
 
-After authentication the AstraNavKit documentation is also available from the secure Sonatype repository to match the version you are using, e.g., :
-
-https://astra-navigation.repo.sonatype.app/repository/astranav-raw/AstraNavKit/1.0.4/AstraNavKit_iOS_SDK_Guide.pdf
-
 ---
 
 # Troubleshooting
