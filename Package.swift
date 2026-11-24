@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AstraNavKit",
-            url: "https://astra-navigation.repo.sonatype.app/repository/astranav-raw/AstraNavKit/0.2.76/AstraNavKit.xcframework.zip",
-            checksum: "41b2592043b0d95ac5345d0536a3fc2b306c7a81b01f6669d3b3df63f5c093be"
+            url: "https://astra-navigation.repo.sonatype.app/repository/astranav-raw/AstraNavKit/1.0.33/AstraNavKit.xcframework.zip",
+            checksum: "64208d9e8bc1085926af7d4b485efec1dcd2cb1d3f368c4b86e23889a1c6ea6b"
         )
     ]
 )
